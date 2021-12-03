@@ -1,0 +1,348 @@
+/*navbarimage*/
+.container-fluid
+{
+	background-color:#fff;
+}
+
+.container-fluid .navbar-header1 img
+{
+	width:70% !important;
+	margin-left:17% !important;
+	margin-bottom:3px !important;
+}
+
+/*menubar*/
+
+.navbar
+{
+	background-color:#3177e8;
+	margin-top:3% !important;
+	margin-bottom:0px;
+	padding-bottom:0px;	
+}
+.collapse
+{
+	padding-left:20%;
+}
+.navbar .collapse ul li a
+{
+	color:#fff;
+	font-family: 'Acme', sans-serif;
+	font-size:20px;
+	text-align:center;
+}
+.navbar .collapse .nav .dropdown .dropdown-menu
+{
+	background-color:#3177e8;
+}
+.navbar .collapse .nav .dropdown .dropdown-menu a:hover
+{
+	color:#3177e8;
+	transform: scale(1.05);
+}
+
+/*imageslider*/
+
+.carousel
+{
+	margin-top:0px;
+	padding-top:0px;
+}
+.carousel .carousel-inner img
+{	
+	width:100%;
+}
+
+/*marqueue images*/
+
+.mimage11
+{
+	width:8%;
+}
+.mimage2
+{
+	width:10%;
+}
+/*welcome-page*/
+
+.welcomenote .welcomegrid .welcome-paragraph,.welcome-heading2
+{
+	font-family: 'Acme', sans-serif;
+	color:#000;
+	font-size:15px;
+	font-weight:normal;
+}
+.welcomenote .welcomegrid .welcome-heading2
+{
+	font-size:18px !important;	
+}
+/*footer part*/
+
+.footerpart
+{
+	background-color:#3177e8;
+}
+.mimage4
+{
+	width:80%;
+	margin-top:10%;
+}
+.footer h1 a
+{
+	font-family: 'Acme', sans-serif;
+	color:#fff;
+	font-size:20px;
+}
+
+.footer h1
+{
+	font-family: 'Acme', sans-serif;
+	color:#fff;
+	font-size:20px;
+	font-weight:normal;
+}
+.footer ul li
+{
+	list-style-type:none;
+}
+.footer ul li a
+{	
+	font-family: 'Acme', sans-serif;
+	color:#fff;
+	font-size:20px;
+	font-weight:normal;
+	margin-left:10px;	
+}
+/*address form*/
+
+.container h3
+{
+	font-family: 'Acme', sans-serif;
+	color:#000;
+	font-size:25px;
+	text-align:center;
+}
+.contactusgrid
+{
+	margin:3em 0 0;
+}
+.contact-left h4
+{
+	font-family: 'Acme', sans-serif;
+	color:#000;
+	font-size:25px;
+	margin-bottom:5%;
+}
+.contact-left h1
+{
+	font-family: 'Acme', sans-serif;
+	color:#000;
+	font-size:18px;
+	font-weight:normal;
+}
+.contact-left ul
+{
+	padding:1em 0 0;
+	margin:0;
+}
+.contact-left h1 a
+{
+	list-style-type: none;
+    margin: 0 0 1em;
+    font-size: 18px;
+    color: #000;
+}
+
+.contact-left h1 a:hover
+{
+	color:#3c43a4;
+}
+
+.contact-left input[type="text"],.contact-left input[type="email"],.contact-left textarea
+{
+	background: none;
+    border: 1px solid #999;
+    border-top: none;
+    color: #424341;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+	font-family: 'Acme', sans-serif;
+}
+.contact-left input[type="text"],.contact-left input[type="email"]
+{
+	width: 24%;
+	float: left;
+}
+.contact-left input[type="email"],.contact-left input[type="text"]
+{
+	margin:0 3.6px;
+}
+.contact-left textarea
+{
+	min-height: 200px;
+	resize: none;
+	width: 100%;
+	margin:1.4em 0;
+}
+.contact-left input[type="submit"]
+{
+	outline: none;
+    color: #ffffff;
+    font-size: 1em;
+    padding: 10px 0;
+    width: 35%;
+    background: #ff5063;
+    border: none;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+}
+.contact-left input[type="submit"]:hover
+{
+	background:#3177e8;
+}
+
+/*location page*/
+/*location heading*/
+
+.container-grid .main-title h1
+{
+	font-family:'Acme', sans-serif;
+	font-size:35px;
+	font-weight:bold;		
+	border-radius:10px;
+}
+/*location photos*/
+.container-grid
+{
+	margin-bottom:3%;
+}
+.main-title h1
+{
+	margin-top:3%;
+	margin-bottom:3%;
+}
+.container-grid .image-grid .container-image .main-link img
+{
+	width:100%;
+	height:30%;
+	border-radius:10px;
+	box-shadow:#000 3px 3px 8px;
+}
+
+.container-grid .image-grid .container-image .main-link h1
+{
+	font-size:20px;
+	font-family:'Acme', sans-serif;
+	letter-spacing:2px;	
+	background-color:rgba(128, 128, 128, 0.8);
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:5px;
+	width:90%;
+	text-align:center;
+	position:absolute;
+	bottom:58px;
+	color:#c5e00d;	
+}
+
+.container-grid .image-grid .main-link:hover .b1
+{
+	color:fff;		
+}
+.container-grid .image-grid .container-image .main-link1 .link a
+{
+	font-family:'Acme', sans-serif;
+	font-size:15px;			
+}
+.container-grid .image-grid .container-image .main-link1 .link
+{
+	text-align:center;
+	margin-top:5%;
+}
+
+/*sales$service*/
+/*navbarimage*/
+.navbar1
+{
+	background-color:#fff !important;
+}
+
+.navbar1 .navbar-header1 img
+{
+	width:60%;
+	margin-left:25%;
+	border:2px #000 soild;
+}
+
+/*menubar*/
+
+.navbar
+{
+	background-color:#3177e8 !important;
+	margin-top:5%;
+	margin-bottom:0px;
+	padding-bottom:0px;	
+}
+.collapse
+{
+	padding-left:20% !important;
+}
+.navbar .collapse ul li a
+{
+	color:#fff;
+	font-family: 'Acme', sans-serif;
+	font-size:20px;
+	text-align:center;
+}
+.navbar .collapse .nav .dropdown .dropdown-menu
+{
+	background-color:#3177e8;
+}
+/*productgrid*/
+.container-grid .container .Product-title
+{
+	font-family:'Acme', sans-serif;
+	font-size:35px;
+	font-weight:bold;	
+}
+.container-grid .container .image-grid .container-image img
+{
+	width:100%;
+	height:30%;
+	border-radius:10px;
+	box-shadow:#000 3px 3px 8px;
+}
+.container-grid .container .image-grid .container-image .innerimagefont1
+{
+	font-family:'Acme', sans-serif;
+	font-size:25px;
+	margin-top:5px;
+}
+.container-grid .container .image-grid .container-image .innerimagefont2
+{
+	font-family:'Acme', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	margin-top:5px;	
+}
+/*last*/
+.last
+{
+	font-family:'Acme', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	color:#800000;
+}
+.unname
+{
+	width:70%;
+	height:30%;
+	margin-left:15px;
+}
+.lastcolumn
+{
+	margin:1%;
+}
